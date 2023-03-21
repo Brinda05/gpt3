@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <div className='first__blog section__padding' id='blog'>
       <div className='first__blog-heading'> 
-         <h1 className='gradient__text'> A lot is happening, We are blogging about it.</h1>
+         <h1 className='gradient__text'> A lot is happening, We are blogging about it!</h1>
       </div>
       <div className='first__blog-container'>
         <div className='first__blog-container-groupA'>
