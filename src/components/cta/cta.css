@@ -1,0 +1,77 @@
+.first__cta {
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+}
+
+.first__cta-content p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.first__cta-content h3 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.first__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.first__cta-btn button {
+    width: 189.14px;
+    height: 59.4px;
+    font-family: var(--font-family);
+    background: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+    .first__cta {
+        flex-direction: column;
+    }
+
+    .first__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .first__cta {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .first__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .first__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

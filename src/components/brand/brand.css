@@ -1,0 +1,21 @@
+.first__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.first__brand div {
+    flex: 1;
+    display: flex;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__brand img {
+    width: 71.1px;
+    height: 22.15px;
+}
